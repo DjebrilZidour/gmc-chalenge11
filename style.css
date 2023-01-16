@@ -114,8 +114,56 @@ body{
 
 }
 
+#third-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+#p-th{
+    width: 50%;
+    text-align: center;
+    color: gray;
+    margin-top: 1rem;
+}
 
 
+#cards{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 8rem;
+    margin-top: 2rem;
+}
+
+#cards img{
+    background-color: black;
+    border-radius: 10rem;
+    padding: 0.5rem;
+    margin-top: 1rem;
+    width: 10%;
+    margin-bottom: 1rem;
+}
+
+
+
+#cards p{
+    color: gray;
+    width: 80%;
+    margin-top: 1rem;
+}
+
+
+#card-2{
+    margin-top: 7rem;
+}
+
+
+#card-3{
+    margin-top: 15rem;
+}
 
 
 
