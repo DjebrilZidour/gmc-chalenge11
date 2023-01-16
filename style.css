@@ -46,9 +46,44 @@ body{
     background-color: rgb(88, 255, 255);
     color: white;
 }
-/* 
+
 #main{
     display: flex;
     justify-content: space-between;
     align-items: center;
-} */
+    margin: 3rem 0;
+}
+
+#left-part-main{
+    padding-left: 8rem;
+    width: 50%;
+}
+
+#left-part-main h1{
+    font-size: 4rem;
+    font-weight: bold;
+    line-height: 3.5rem;
+    margin-bottom: 2rem;
+}
+#left-part-main p{
+    font-size: 1.3rem;
+    color: gray;
+    width: 90%;
+}
+
+#left-part-main button{
+    padding: 0.4rem 1rem;
+    border-radius: 1rem;
+    border: none;
+    background-color: rgb(88, 255, 255);
+    color: white;
+    margin-top: 3rem;
+}
+
+#right-part-main{
+    width: 50%;
+}
+
+
+
+
