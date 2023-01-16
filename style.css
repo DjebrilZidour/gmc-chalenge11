@@ -13,8 +13,9 @@ body{
 #navbar {
     display: flex;
     justify-content: space-between;
-    width: 100%;
+
     align-items: center;
+    padding: 0 8rem;
 }
 
 #left-part-nav {
@@ -32,3 +33,22 @@ body{
     margin: 1rem;
     color: gray;
 }
+
+#right-part-nav a{
+    color: gray;
+    margin-right: 1rem;
+    text-decoration: none;
+}
+#right-part-nav button{
+    padding: 0.4rem 1rem;
+    border-radius: 1rem;
+    border: none;
+    background-color: rgb(88, 255, 255);
+    color: white;
+}
+/* 
+#main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} */
