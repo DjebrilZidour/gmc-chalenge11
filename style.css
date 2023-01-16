@@ -16,6 +16,7 @@ body{
 
     align-items: center;
     padding: 0 8rem;
+    margin-top: 2rem;
 }
 
 #left-part-nav {
@@ -174,7 +175,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 1.5rem;
+    padding: 4rem;
     margin-top: 2rem;
     background-color: rgb(12, 0, 87);
 }
@@ -197,6 +198,36 @@ body{
     width: 10%;
 
 }
+
+/* footer */
+
+#footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 6rem 8rem;
+    background-color: black;
+}
+
+#footer h3{
+    color: white;
+    text-decoration: underline;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+#footer a{
+    display: block;
+    margin-top: 0.5rem;
+    color: rgb(175, 175, 175);
+    text-decoration: none;
+
+}
+
+#social-media img{
+    margin: 0.3rem;
+}
+
+
 
 
 
