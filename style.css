@@ -17,7 +17,7 @@ body{
     align-items: center;
 }
 
-#left-part {
+#left-part-nav {
     display: flex;
     align-items: center;
 }
@@ -25,9 +25,10 @@ body{
 #navbar ul {
     display: flex;
     list-style: none;
+    margin-left: 3rem;
 }
 
 #navbar li {
-    margin: 1.5rem;
+    margin: 1rem;
     color: gray;
 }
