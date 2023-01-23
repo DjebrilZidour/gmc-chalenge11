@@ -1,15 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
 }
 
-body{
+body {
     font-family: 'Roboto Mono', monospace;
 }
-
-
-
 
 #navbar {
     display: flex;
@@ -36,12 +34,13 @@ body{
     color: gray;
 }
 
-#right-part-nav a{
+#right-part-nav a {
     color: gray;
     margin-right: 1rem;
     text-decoration: none;
 }
-#right-part-nav button{
+
+#right-part-nav button {
     padding: 0.4rem 1rem;
     border-radius: 1rem;
     border: none;
@@ -49,31 +48,33 @@ body{
     color: white;
 }
 
-#main{
+#main {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 3rem 0;
+    width: 90%;
 }
 
-#left-part-main{
+#left-part-main {
     padding-left: 8rem;
     width: 50%;
 }
 
-#left-part-main h1{
+#left-part-main h1 {
     font-size: 4rem;
     font-weight: bold;
     line-height: 3.5rem;
     margin-bottom: 2rem;
 }
-#left-part-main p{
+
+#left-part-main p {
     font-size: 1.3rem;
     color: gray;
-    width: 90%;
+    width: 100%;
 }
 
-#left-part-main button{
+#left-part-main button {
     padding: 0.4rem 1rem;
     border-radius: 1rem;
     border: none;
@@ -82,14 +83,17 @@ body{
     margin-top: 3rem;
 }
 
-#right-part-main{
+#right-part-main {
     width: 50%;
+}
+#right-part-main img{
+    width: 100%;
 }
 
 /* ! second section  */
 
 
-#sec-section{
+#sec-section {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -100,12 +104,13 @@ body{
 }
 
 
-#sec-section input{
+#sec-section input {
     padding: 0.8rem 16rem;
     border: white;
     width: 60%;
 }
-#sec-section button{
+
+#sec-section button {
     padding: 0.9rem 1rem;
     border-radius: 0.2rem;
     border: none;
@@ -116,7 +121,7 @@ body{
 
 }
 
-#third-section{
+#third-section {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -124,7 +129,7 @@ body{
     margin-top: 5rem;
 }
 
-#p-th{
+#p-th {
     width: 50%;
     text-align: center;
     color: gray;
@@ -132,7 +137,7 @@ body{
 }
 
 
-#cards{
+#cards {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -140,7 +145,7 @@ body{
 
 }
 
-#cards img{
+#cards img {
     background-color: black;
     border-radius: 10rem;
     padding: 0.5rem;
@@ -151,26 +156,26 @@ body{
 
 
 
-#cards p{
+#cards p {
     color: gray;
     width: 80%;
     margin-top: 1rem;
 }
 
 
-#card-2{
+#card-2 {
     margin-top: 7rem;
 }
 
 
-#card-3{
+#card-3 {
     margin-top: 15rem;
 }
 
 
 /* fourth-section */
 
-#fourth-section{
+#fourth-section {
     border: solid 1px magenta;
     display: flex;
     flex-direction: column;
@@ -182,14 +187,14 @@ body{
 }
 
 
-#fourth-section h1{
+#fourth-section h1 {
     margin-bottom: 1rem;
     color: white;
     font-weight: bold;
 }
 
 
-#fourth-section button{
+#fourth-section button {
     padding: 0.9rem 1.5rem;
     border-radius: 3rem;
     border: none;
@@ -202,21 +207,21 @@ body{
 
 /* footer */
 
-#footer{
+#footer {
     display: flex;
     justify-content: space-between;
     padding: 6rem 8rem;
     background-color: black;
 }
 
-#footer h3{
+#footer h3 {
     color: white;
     text-decoration: underline;
     font-weight: bold;
     margin-bottom: 1rem;
 }
 
-#footer a{
+#footer a {
     display: block;
     margin-top: 0.5rem;
     color: rgb(175, 175, 175);
@@ -224,13 +229,7 @@ body{
 
 }
 
-#social-media img{
+
+#social-media img {
     margin: 0.3rem;
 }
-
-
-
-
-
-
-
